@@ -1,0 +1,53 @@
+body {
+  background-color: #f5f6fa;
+  font-family: Arial, sans-serif;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-box-w {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.auth-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.pre-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.buttons-w {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media-icons img {
+  width: 28px;
+  margin: 0 5px;
+}
